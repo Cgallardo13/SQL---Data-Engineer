@@ -1,0 +1,28 @@
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- DBeaver Specific ---
+# DBeaver guarda configuraciones de conexión y diagramas locales aquí
+.dbeaver/
+*.bak
+*.log
+dbeaver-debug.log
+
+# --- Database / Data ---
+# Nunca subas archivos de datos gigantes (.csv) o volcados de base de datos (.sql pesados)
+*.csv
+*.json
+*.sql.gz
+*.dump
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Environment ---
+# Si luego usas Python o herramientas de conexión, protege tus credenciales
+.env
