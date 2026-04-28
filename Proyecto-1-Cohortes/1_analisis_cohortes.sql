@@ -3,7 +3,7 @@
 */
 
 WITH retention_base AS (
-    -- Reutilizamos tu lógica exacta
+    -- Reutilizamos la logica exacta
     SELECT 
         cohort_month,
         DATE_DIFF(DATE_TRUNC(DATE(created_at), MONTH), cohort_month, MONTH) AS month_number,
